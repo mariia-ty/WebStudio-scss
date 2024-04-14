@@ -8,7 +8,7 @@
 
   .logo {
     font-family: "Raleway", sans-serif;
-    color: $--logoH-color;
+    color: $logoH-color;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -44,7 +44,7 @@
   }
 
   .pages {
-    color: $--DGLetters-color;
+    color: $DGLetters-color;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -53,8 +53,20 @@
     text-decoration: none;
   }
   .selected {
-    color: $--HB-color;
+    color: $HB-color;
     position: relative;
+    &::after {
+      content: "";
+      width: 100%;
+      height: 4px;
+    
+      background-color: $HB-color;
+      border-radius: 4px;
+    
+      position: absolute;
+      bottom: -28px;
+      left: 0;
+    }
   }
   .header-cont {
     list-style: none;
@@ -63,7 +75,7 @@
     gap: 50px;
   }
   .contacts {
-    color: $--LGLetters-color;
+    color: $LGLetters-color;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -78,7 +90,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {
-      color: $--HB-color;
+      color: $HB-color;
     }
     .icon-email {
       width: 16px;

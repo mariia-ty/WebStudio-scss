@@ -9,7 +9,7 @@
       rgba(75, 75, 75, 0.5),
       rgba(75, 75, 75, 0.4)
     ),
-    url(./images/header-background-img.jpg);
+    url(/images/header-background-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -99,7 +99,6 @@
 .no-scroll {
   overflow: hidden;
 }
-
 .modal {
   position: absolute;
   top: 50%;
@@ -183,6 +182,19 @@
   gap: 13px;
 
   padding: 0;
+  &:hover {
+    border-color: $HB-color;
+  }
+  &:hover .person {
+    fill: $HB-color
+  }
+  &:hover .phone {
+    fill: $HB-color;
+  }
+
+  &:hover .envelope {
+    fill: $HB-color;
+  }
 }
 .form-icon {
   width: 18px;
@@ -194,20 +206,7 @@
 
   margin-left: 12px;
   padding: 0;
-  &:hover {
-    border-color: var(--HB-color); /*try change this?*/
-  }
-  &:hover .person {
-    fill: var(--HB-color);
-  }
-
-  &:hover .phone {
-    fill: var(--HB-color);
-  }
-
-  &:hover .envelope {
-    fill: var(--HB-color);
-  }
+  
 }
 .form-inp {
   width: 400px;
@@ -336,7 +335,7 @@
     display: block;
     width: 70px;
     height: 70px;
-    background-image: url(images/clock.svg);
+    background-image: url(/images/clock.svg);
     background-size: cover;
     margin-bottom: 10px;
     background-position: center;
@@ -348,7 +347,7 @@
     display: block;
     width: 70px;
     height: 70px;
-    background-image: url(images/diagram.svg);
+    background-image: url(/images/diagram.svg);
     background-size: cover;
     margin-bottom: 10px;
     background-position: center;
@@ -360,7 +359,7 @@
     display: block;
     width: 70px;
     height: 70px;
-    background-image: url(images/astronaut.svg);
+    background-image: url(/images/astronaut.svg);
     background-size: cover;
     margin-bottom: 10px;
     background-position: center;
@@ -416,7 +415,7 @@
 .example-img1 {
   width: 370px;
   height: 294px;
-  background-image: url(./images/typing.jpg);
+  background-image: url(/images/typing.jpg);
   z-index: 1;
 
   display: block;
@@ -450,13 +449,13 @@
 .example-img2 {
   width: 370px;
   height: 294px;
-  background-image: url(./images/laptop-img.jpg);
+  background-image: url(/images/laptop-img.jpg);
   z-index: 1;
 }
 .example-img3 {
   width: 370px;
   height: 294px;
-  background-image: url(./images/hexa-colors.jpg);
+  background-image: url(/images/hexa-colors.jpg);
   z-index: 1;
 }
 .team {
@@ -526,7 +525,7 @@
 
     transform: scale(1.05);
   }
-  &hover .t-instagram {
+  &:hover .t-instagram {
     fill: $HWLetters-color;
     transform: scale(1.05);
   }
