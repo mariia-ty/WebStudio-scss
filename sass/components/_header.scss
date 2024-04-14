@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  outline: solid $LGLetters-color;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+
+  .logo {
+    font-family: "Raleway", sans-serif;
+    color: $--logoH-color;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+    margin: 25px 0 24px 0;
+    display: block;
+    padding-top: 15px;
+  }
+  .slide-in-left {
+    animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .header-pages {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  .top_bar {
+    margin: 32px 0 32px 0;
+  }
+
+  .pages {
+    color: $--DGLetters-color;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+  }
+  .selected {
+    color: $--HB-color;
+    position: relative;
+  }
+  .header-cont {
+    list-style: none;
+    display: flex;
+    margin-left: 294px;
+    gap: 50px;
+  }
+  .contacts {
+    color: $--LGLetters-color;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: $--HB-color;
+    }
+    .icon-email {
+      width: 16px;
+      height: 12px;
+      fill: currentColor;
+      margin-right: 10px;
+      margin-top: 0;
+      padding-top: 0;
+      vertical-align: middle;
+    }
+    .icon-phone {
+      width: 10px;
+      height: 16px;
+      fill: currentColor;
+      margin-right: 10px;
+      margin-top: 0;
+      padding-top: 0;
+      vertical-align: middle;
+    }
+  }
+}
