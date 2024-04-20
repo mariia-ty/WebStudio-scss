@@ -16,7 +16,7 @@
 }
 .adress {
   color: $HWLetters-color;
-  font-family: Roboto;
+  font-family: $roboto-font;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -24,12 +24,12 @@
   letter-spacing: 0.42px;
   margin: 0;
 }
-.foot-cont-list {
+.foot__cont--list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.footer-contacts {
+.footer--contacts {
   color: $footer-cont-color;
   font-size: 14px;
   font-style: normal;
@@ -40,7 +40,7 @@
 }
 .ft-join {
   color: $HWLetters-color;
-  font-family: "Roboto", sans-serif;
+  font-family: $roboto-font;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 3%;

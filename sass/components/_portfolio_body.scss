@@ -1,4 +1,4 @@
-.classes {
+.classes__section {
     width: 602px;
     height: 54px;
     outline: solid $LGLetters-color;
@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
   }
-  .class-list {
+  .classes__section--list {
     list-style: none;
     display: flex;
     gap: 45px;
@@ -17,7 +17,7 @@
   .classification {
     color: $DGLetters-color;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: $roboto-font;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -64,14 +64,14 @@
       text-shadow: 0 6px 18px rgba(0, 0, 0);
     }
   }
-  .projects {
+  .projects--list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
     gap: 30px;
   }
-  .samples {
+  .projects--samples {
     flex-direction: column;
   
     width: 370px;

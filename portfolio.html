@@ -46,23 +46,23 @@
   <body>
     <div class="container">
       <header class="container header">
-        <a href="index.html" class="logo slide-in-left">
+        <a href="index.html" class="header__logo slide-in-left">
           <img class="top-logo" src="./images/webstudio.svg" alt="logo" />
         </a>
-        <ul class="header-pages">
+        <ul class="header__pages--list">
           <li class="top_bar">
-            <a href="index.html" target="_self" class="pages">
+            <a href="index.html" target="_self" class="header__page">
               Студія</a
             >
           </li>
           <li class="top_bar animate__animated animate__slideInDown animate__delay-0.5s">
-            <a href="portfolio.html" target="_self" class="pages selected"> Портфоліо</a>
+            <a href="portfolio.html" target="_self" class="header__page selected"> Портфоліо</a>
           </li>
-          <li class="pages top_bar">Контакти</li>
+          <li class="header__page top_bar">Контакти</li>
         </ul>
-        <ul class="header-cont">
+        <ul class="header__cont--list">
           <li class="top_bar">
-            <a href="mailto:info@devstudio.com" class="contacts"
+            <a href="mailto:info@devstudio.com" class="header__contacts"
               ><svg class="icon-email">
                 <use href="images/symbol-defs.svg#icon-envelopeblue"></use>
               </svg>
@@ -70,7 +70,7 @@
             >
           </li>
           <li class="top_bar">
-            <a href="tel:+380961111111" class="contacts"
+            <a href="tel:+380961111111" class="header__contacts"
               ><svg class="icon-phone">
                 <use href="images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
@@ -80,8 +80,8 @@
         </ul>
       </header>
       <section>
-        <div class="classes">
-          <ul class="class-list">
+        <div class="classes__section">
+          <ul class="classes__section--list">
             <li><button class="classification text-shadow-drop-bottom">Усі</button></li>
             <li><button class="classification text-shadow-drop-bottom">Веб-сайти</button></li>
             <li><button class="classification text-shadow-drop-bottom">Додатки</button></li>
@@ -90,8 +90,8 @@
           </ul>
         </div>
       </section>
-      <ul class="container projects">
-        <li class="samples">
+      <ul class="container projects--list">
+        <li class="projects--samples">
           <img
             class="sample-photo"
             src="./images/laptop.jpg"
@@ -101,7 +101,7 @@
           <h3 class="project-title">Технокряк</h3>
           <span class="project-classification">Веб-сайт</span>
         </li>
-        <li class="samples"> 
+        <li class="projects--samples"> 
           <img
             class="sample-photo"
             src="./images/basketball.jpg"
@@ -111,7 +111,7 @@
           <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
           <span class="project-classification">Дизайн</span>
         </li>
-        <li class="samples">
+        <li class="projects--samples">
           <img
             class="sample-photo"
             src="./images/seafood.jpg"
@@ -121,7 +121,7 @@
           <h3 class="project-title">Ресторан Seafood</h3>
           <span class="project-classification">Додаток</span>
         </li>
-        <li class="samples">
+        <li class="projects--samples">
           <img
             class="sample-photo"  
             src="./images/headphones.jpg"
@@ -131,7 +131,7 @@
           <h3 class="project-title">Проєкт Prime</h3>
           <span class="project-classification">Маркетинг</span>
         </li>
-        <li class="samples">
+        <li class="projects--samples">
           <img
             class="sample-photo"
             src="./images/boxes.jpg"
@@ -141,7 +141,7 @@
           <h3 class="project-title">Проєкт Prime</h3>
           <span class="project-classification">Маркетинг</span>
         </li>
-        <li class="samples">
+        <li class="projects--samples">
           <img
             class="sample-photo"
             src="./images/comp-map.jpg"
@@ -151,7 +151,7 @@
           <h3 class="project-title">Inspiration has no Borders</h3>
           <span class="project-classification">Веб-сайт</span>
         </li>
-        <li class="samples">
+        <li class="projects--samples">
           <img
             class="sample-photo"
             src="./images/magazine.jpg"
@@ -161,7 +161,7 @@
           <h3 class="project-title">Видання Limited Edition</h3>
           <span class="project-classification">Дизайн</span>
         </li>
-        <li class="samples">
+        <li class="projects--samples">
           <img
             class="sample-photo"
             src="./images/tag.jpg"
@@ -171,7 +171,7 @@
           <h3 class="project-title">Проєкт LAB</h3>
           <span class="project-classification">Маркетинг</span>
         </li>
-        <li class="samples">
+        <li class="projects--samples">
           <img
             class="sample-photo"
             src="./images/laptop-business.jpg"
@@ -187,7 +187,7 @@
         <div class="container">
           <footer class="info_footer">
             <div class="left-ft">
-              <a href="index.html" class="footer-logo">
+              <a href="index.html" class="footer--logo">
                 <img
                   class="bot-logo"
                   src="./images/webstudiobot.svg"
@@ -195,14 +195,14 @@
                 />
               </a>
               <p class="adress">м. Київ, пр-т Лесі Українки, 26</p>
-              <ul class="foot-cont-list">
+              <ul class="foot__cont--list">
                 <li>
-                  <a href="mailto:info@devstudio.com" class="footer-contacts"
+                  <a href="mailto:info@devstudio.com" class="footer--contacts"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a href="tel:+380961111111" class="footer-contacts"
+                  <a href="tel:+380961111111" class="footer--contacts"
                     >+38 096 111 11 11</a
                   >
                 </li>
@@ -233,7 +233,7 @@
                 </a>
               </div>
             </div>
-            <div class="right-ft">
+            <div>
               <h5 class="form-ttl">Підпишіться на розсилку</h5>
               <div class="email-btn">
                 <label class="footer-em">

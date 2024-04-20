@@ -47,23 +47,23 @@
   <body>
     <div class="container">
       <header class="header">
-        <a href="index.html" class="logo slide-in-left">
+        <a href="index.html" class="header__logo slide-in-left">
           <img class="top-logo" src="./images/webstudio.svg" alt="logo" />
         </a>
-        <ul class="header-pages">
+        <ul class="header__pages--list">
           <li class="top_bar animate__animated animate__slideInDown animate__delay-0.5s">
-            <a href="index.html" target="_self" class="pages selected">
+            <a href="index.html" target="_self" class="header__page selected">
               Студія</a
             >
           </li>
           <li class="top_bar">
-            <a href="portfolio.html" target="_self" class="pages"> Портфоліо</a>
+            <a href="portfolio.html" target="_self" class="header__page"> Портфоліо</a>
           </li>
-          <li class="pages top_bar">Контакти</li>
+          <li class="header__page top_bar">Контакти</li>
         </ul>
-        <ul class="header-cont">
+        <ul class="header__cont--list">
           <li class="top_bar">
-            <a href="mailto:info@devstudio.com" class="contacts"
+            <a href="mailto:info@devstudio.com" class="header__contacts"
               ><svg class="icon-email">
                 <use href="images/symbol-defs.svg#icon-envelopeblue"></use>
               </svg>
@@ -71,7 +71,7 @@
             >
           </li>
           <li class="top_bar">
-            <a href="tel:+380961111111" class="contacts"
+            <a href="tel:+380961111111" class="header__contacts"
               ><svg class="icon-phone">
                 <use href="images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
@@ -83,10 +83,10 @@
     </div>
     <section class="container back-img">
       <div class="container GB_section">
-        <h1 class="top_section opener-title tracking-in-expand">
+        <h1 class="GB__section-opener-title tracking-in-expand">
           Ефективні рішення для вашого бізнесу
         </h1>
-        <button type="button" class="header-button slide-fwd-center" data-modal-open>
+        <button type="button" class="GB__section--button slide-fwd-center" data-modal-open>
           Замовити послугу
         </button>
         <div class="backdrop is-hidden" data-modal>
@@ -153,29 +153,29 @@
       </div>
     </section>
     <div class="container">
-      <section class="chars">
-        <ul class="characteristics">
-          <li class="char_section type1">
-            <h3 class="char-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="char-description">
+      <section class="chars__section">
+        <ul class="section__characteristics--list">
+          <li class="char__section--list type1">
+            <h3 class="char__section--title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="char__section--description">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="char_section">
-            <h3 class="char-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="char-description">
+          <li class="char__section--list">
+            <h3 class="char__section--title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="char__section--description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="char_section">
-            <h3 class="char-title">ПЛАНУВАННЯ</h3>
-            <p class="char-description">
+          <li class="char__section--list">
+            <h3 class="char__section--title">ПЛАНУВАННЯ</h3>
+            <p class="char__section--description">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="char_section">
+          <li class="char__section--list">
             <h3 class="char-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="char-description">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -184,7 +184,7 @@
           </li>
         </ul>
       </section>
-      <section class="ex_section">
+      <section class="ex__section">
         <h2 class="title2">Чим ми займаємося</h2>
         <ul class="img-list">
           <li class="ex_img">
@@ -207,10 +207,10 @@
           </li>
         </ul>
       </section>
-      <section class="team">
+      <section class="team__section">
         <h2 class="title3">Наша команда</h2>
-        <ul class="team-list">
-          <li class="team_section">
+        <ul class="team__section--list">
+          <li class="team__section--staff">
             <img
               width="270"
               height="260"
@@ -242,7 +242,7 @@
               </a>
             </div>
           </li>
-          <li class="team_section">
+          <li class="team__section--staff">
             <img
               width="270"
               height="260"
@@ -274,7 +274,7 @@
               </a>
             </div>
           </li>
-          <li class="team_section">
+          <li class="team__section--staff">
             <img
               width="270"
               height="260"
@@ -306,7 +306,7 @@
               </a>
             </div>
           </li>
-          <li class="team_section">
+          <li class="team__section--staff">
             <img
               width="270"
               height="260"
@@ -340,45 +340,45 @@
           </li>
         </ul>
       </section>
-      <section class="container clients">
+      <section class="container clients__section">
         <h2 class="title4">Постійні клієнти</h2>
-        <ul class="c-list">
-          <li class="comp">
+        <ul class="clients__section--list">
+          <li class="clients__section--comp">
             <a class="comp-logo1">
               <svg class="yaco">
                 <use href="images/symbol-defs.svg#icon-yaco"></use>
               </svg>
             </a>
           </li>
-          <li class="comp">
+          <li class="clients__section--comp">
             <a class="comp-logo2"
               ><svg class="taglinecomp">
                 <use href="images/symbol-defs.svg#icon-taglinecomp"></use>
               </svg>
             </a>
           </li>
-          <li class="comp">
+          <li class="clients__section--comp">
             <a class="comp-logo3"
               ><svg class="orgcomp">
                 <use href="images/symbol-defs.svg#icon-orgcomp"></use>
               </svg>
             </a>
           </li>
-          <li class="comp">
+          <li class="clients__section--comp">
             <a class="comp-logo4"
               ><svg class="foster">
                 <use href="images/symbol-defs.svg#icon-foster"></use>
               </svg>
             </a>
           </li>
-          <li class="comp">
+          <li class="clients__section--comp">
             <a class="comp-logo5"
               ><svg class="brand">
                 <use href="images/symbol-defs.svg#icon-brand"></use>
               </svg>
             </a>
           </li>
-          <li class="comp">
+          <li class="clients__section--comp">
             <a class="comp-logo6">
               <svg class="tagline">
                 <use href="images/symbol-defs.svg#icon-tagline"></use>
@@ -392,7 +392,7 @@
       <div class="container">
         <footer class="info_footer">
           <div class="left-ft">
-            <a href="index.html" class="footer-logo">
+            <a href="index.html" class="footer--logo">
               <img
                 class="bot-logo"
                 src="./images/webstudiobot.svg"
@@ -400,14 +400,14 @@
               />
             </a>
             <p class="adress">м. Київ, пр-т Лесі Українки, 26</p>
-            <ul class="foot-cont-list">
+            <ul class="foot__cont--list">
               <li>
-                <a href="mailto:info@devstudio.com" class="footer-contacts"
+                <a href="mailto:info@devstudio.com" class="footer--contacts"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a href="tel:+380961111111" class="footer-contacts"
+                <a href="tel:+380961111111" class="footer--contacts"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -438,7 +438,7 @@
               </a>
             </div>
           </div>
-          <div class="right-ft">
+          <div>
             <h5 class="form-ttl">Підпишіться на розсилку</h5>
             <div class="email-btn">
               <label class="footer-em">

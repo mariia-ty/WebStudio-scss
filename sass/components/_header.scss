@@ -6,8 +6,8 @@
   display: flex;
   align-items: center;
 
-  .logo {
-    font-family: "Raleway", sans-serif;
+  .header__logo {
+    font-family: $raleway-font;
     color: $logoH-color;
     font-size: 26px;
     font-style: normal;
@@ -34,7 +34,7 @@
     }
   }
 
-  .header-pages {
+  .header__pages--list {
     list-style: none;
     display: flex;
     gap: 50px;
@@ -43,7 +43,7 @@
     margin: 32px 0 32px 0;
   }
 
-  .pages {
+  .header__page {
     color: $DGLetters-color;
     font-size: 14px;
     font-style: normal;
@@ -68,13 +68,13 @@
       left: 0;
     }
   }
-  .header-cont {
+  .header__cont--list {
     list-style: none;
     display: flex;
     margin-left: 294px;
     gap: 50px;
   }
-  .contacts {
+  .header__contacts {
     color: $LGLetters-color;
     font-size: 14px;
     font-style: normal;

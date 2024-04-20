@@ -22,7 +22,7 @@
   justify-content: center;
   height: 600px;
 }
-.opener-title {
+.GB__section-opener-title {
   color: $HWLetters-color;
   text-align: center;
   font-size: 44px;
@@ -52,7 +52,7 @@
     opacity: 1;
   }
 }
-.header-button {
+.GB__section--button {
   color: $HWLetters-color;
   background-color: $HB-color;
   text-align: center;
@@ -308,15 +308,15 @@
   padding: 10px 32px;
   border-radius: 7px;
 }
-.chars {
+.chars__section {
   margin: 94px 250;
 }
-.characteristics {
+.section__characteristics--list {
   list-style: none;
   display: flex;
   gap: 30px;
 }
-.char_section {
+.char__section--list {
   max-width: 270px;
   &:nth-child(1)::before {
     content: "";
@@ -367,7 +367,7 @@
     margin-left: 80px;
   }
 }
-.char-title {
+.char__section--title {
   color: $DGLetters-color;
   font-size: 14px;
   font-style: normal;
@@ -376,7 +376,7 @@
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-.char-description {
+.char__section--description {
   color: $LGLetters-color;
   font-size: 14px;
   font-style: normal;
@@ -384,7 +384,7 @@
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
-.ex_section {
+.ex__section {
   margin: 0 auto;
   max-height: 386px;
   max-width: 1170px;
@@ -458,7 +458,7 @@
   background-image: url(/images/hexa-colors.jpg);
   z-index: 1;
 }
-.team {
+.team__section {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -472,14 +472,14 @@
   line-height: normal;
   letter-spacing: 1.08px;
 }
-.team-list {
+.team__section--list {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
   gap: 30px;
 }
-.team_section {
+.team__section--staff {
   max-width: 270px;
   margin: 10px 0;
   text-align: center;
@@ -554,7 +554,7 @@
   fill: $grey-color;
   margin: 12px;
 }
-.clients {
+.clients__section {
   margin: 0 auto;
 }
 .title4 {
@@ -566,13 +566,13 @@
   line-height: normal;
   letter-spacing: 1.08px;
 }
-.c-list {
+.clients__section--list {
   display: flex;
   list-style: none;
   gap: 30px;
   padding-left: 0;
 }
-.comp {
+.clients__section--comp {
   width: 170px;
   height: 92px;
   border: 2px solid $grey-color;
