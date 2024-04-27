@@ -45,12 +45,7 @@
 
   .header__page {
     color: $DGLetters-color;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    text-decoration: none;
+    @extend %header-style;
   }
   .selected {
     color: $HB-color;
@@ -76,12 +71,7 @@
   }
   .header__contacts {
     color: $LGLetters-color;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    text-decoration: none;
+    @extend %header-style;
     display: flex;
     align-items: center;
 

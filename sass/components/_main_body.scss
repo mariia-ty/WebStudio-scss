@@ -23,14 +23,7 @@
   height: 600px;
 }
 .GB__section-opener-title {
-  color: $HWLetters-color;
-  text-align: center;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 60px; /* 136.364% */
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
+  @include text($txt-color: $HWLetters-color, $txt-weight:900, $txt-size:44px, $txt-spacing:2.64px, $txt-transform:uppercase); 
   margin: 0 452px 280px 452px;
   width: 696px;
   display: flex;
@@ -53,14 +46,8 @@
   }
 }
 .GB__section--button {
-  color: $HWLetters-color;
+  @include text($txt-color:$HWLetters-color, $txt-weight:700, $txt-size:16px, $txt-spacing:0.96px, $txt-transform:none);
   background-color: $HB-color;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px; /* 187.5% */
-  letter-spacing: 0.96px;
   text-decoration: none;
   display: block;
   border: none;
@@ -152,11 +139,7 @@
   cursor: pointer;
 }
 .pop-up-title {
-  font-size: 20px;
-  font-weight: 700;
-  color: $DGLetters-color;
-
-  text-align: center;
+  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size: 20px, $txt-spacing:normal, $txt-transform:none);
 }
 .pop-up-form {
   margin-left: 40px;
@@ -368,13 +351,7 @@
   }
 }
 .char__section--title {
-  color: $DGLetters-color;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:14px, $txt-spacing: 0.42px, $txt-transform: uppercase);
 }
 .char__section--description {
   color: $LGLetters-color;
@@ -390,13 +367,7 @@
   max-width: 1170px;
 }
 .title2 {
-  color: $DGLetters-color;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
+  @include text ($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:36px, $txt-spacing: 1.08px, $txt-transform:none);
 }
 .img-list {
   list-style: none;
@@ -464,13 +435,7 @@
   padding-bottom: 100px;
 }
 .title3 {
-  color: $DGLetters-color;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
+  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:36px, $txt-spacing:1.08px, $txt-transform:none);
 }
 .team__section--list {
   list-style: none;
@@ -558,13 +523,7 @@
   margin: 0 auto;
 }
 .title4 {
-  color: $DGLetters-color;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
+  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:36px, $txt-spacing: 1.08px, $txt-transform:none);
 }
 .clients__section--list {
   display: flex;

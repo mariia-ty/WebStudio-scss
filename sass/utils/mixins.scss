@@ -1,0 +1,10 @@
+@mixin text($txt-color, $txt-weight, $txt-size, $txt-spacing, $txt-transform) {
+  color: $txt-color;
+  text-align: center;
+  font-size: $txt-size;
+  font-style: normal;
+  font-weight: $txt-weight;
+  line-height: normal;
+  letter-spacing: $txt-spacing;
+  text-transform: $txt-transform;
+}
