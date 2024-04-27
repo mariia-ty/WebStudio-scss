@@ -358,9 +358,14 @@
 }
 
 .form-sub-ttl {
-  font-size: 12px;
-  font-weight: 400;
   color: #757575;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: none;
   padding: 0;
   margin-top: 10px;
   margin-bottom: 4px;
@@ -446,9 +451,14 @@
   width: 416px;
   height: 96px;
   resize: none;
-  font-size: 12px;
-  font-weight: 400;
   color: rgba(117, 117, 117, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: none;
   border: none;
   outline: none;
 }
@@ -505,11 +515,14 @@
 }
 
 .txt {
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0.03;
-  line-height: 24px;
   color: #757575;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03;
+  text-transform: none;
   margin: 0;
   padding: 0;
 }
@@ -527,14 +540,14 @@
   width: 200px;
   height: 50px;
   color: #fff;
-  background-color: #2196f3;
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 187.5% */
+  line-height: normal;
   letter-spacing: 0.96px;
-  text-decoration: none;
+  text-transform: none;
+  background-color: #2196f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -627,11 +640,13 @@
 
 .char__section--description {
   color: #757575;
+  text-align: center;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: normal;
   letter-spacing: 0.42px;
+  text-transform: none;
 }
 
 .ex__section {
@@ -698,10 +713,13 @@
 
 .desc {
   color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
 }
 
 .example-img2 {
@@ -761,6 +779,7 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
+  text-transform: none;
 }
 
 .member-position {
@@ -771,6 +790,7 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
+  text-transform: none;
 }
 
 .team-socials {
@@ -954,12 +974,13 @@
 .classification {
   color: #212121;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  font-weight: 400;
+  line-height: normal;
   letter-spacing: 0.48px;
+  text-transform: none;
+  font-family: "Roboto", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1101,11 +1122,14 @@
 .sample-desc {
   width: 370px;
   height: 294px;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 3%;
-  line-height: 28px;
   color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3%;
+  text-transform: none;
   background-color: #2196f3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1131,21 +1155,25 @@
 
 .project-title {
   color: #212121;
+  text-align: center;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 200% */
+  line-height: normal;
   letter-spacing: 1.08px;
+  text-transform: none;
   margin: 20px 24px 4px 24px;
 }
 
 .project-classification {
   color: #757575;
+  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
+  line-height: normal;
   letter-spacing: 0.48px;
+  text-transform: none;
   margin-left: 24px;
   padding-bottom: 20px;
 }
