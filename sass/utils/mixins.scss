@@ -8,3 +8,8 @@
   letter-spacing: $txt-spacing;
   text-transform: $txt-transform;
 }
+
+@mixin hover-change($fill-color, $new-scale) {
+  fill: $fill-color;
+  transform: $new-scale;
+}

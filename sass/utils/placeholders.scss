@@ -6,3 +6,15 @@
     letter-spacing: 0.28px;
     text-decoration: none;
 }
+
+%char-images {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    margin-bottom: 10px;
+    background-position: center;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}

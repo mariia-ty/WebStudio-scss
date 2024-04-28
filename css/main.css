@@ -7,6 +7,18 @@
   text-decoration: none;
 }
 
+.char__section--list:nth-child(4)::before, .char__section--list:nth-child(3)::before, .char__section--list:nth-child(2)::before, .char__section--list:nth-child(1)::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  margin-bottom: 10px;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
 .container {
   width: 1170px;
   outline: 3px solid #757575;
@@ -366,6 +378,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-transform: none;
+  text-align: left;
   padding: 0;
   margin-top: 10px;
   margin-bottom: 4px;
@@ -459,6 +472,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-transform: none;
+  text-align: left;
   border: none;
   outline: none;
 }
@@ -579,52 +593,16 @@
   max-width: 270px;
 }
 .char__section--list:nth-child(1)::before {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 70px;
   background-image: url(/images/antenna.svg);
-  background-size: cover;
-  margin-bottom: 10px;
-  background-position: center;
-  margin-bottom: 10px;
-  margin-left: 80px;
 }
 .char__section--list:nth-child(2)::before {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 70px;
   background-image: url(/images/clock.svg);
-  background-size: cover;
-  margin-bottom: 10px;
-  background-position: center;
-  margin-bottom: 10px;
-  margin-left: 80px;
 }
 .char__section--list:nth-child(3)::before {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 70px;
   background-image: url(/images/diagram.svg);
-  background-size: cover;
-  margin-bottom: 10px;
-  background-position: center;
-  margin-bottom: 10px;
-  margin-left: 80px;
 }
 .char__section--list:nth-child(4)::before {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 70px;
   background-image: url(/images/astronaut.svg);
-  background-size: cover;
-  margin-bottom: 10px;
-  background-position: center;
-  margin-bottom: 10px;
-  margin-left: 80px;
 }
 
 .char__section--title {
@@ -647,6 +625,7 @@
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: none;
+  text-align: left;
 }
 
 .ex__section {
@@ -1130,6 +1109,7 @@
   line-height: normal;
   letter-spacing: 3%;
   text-transform: none;
+  text-align: left;
   background-color: #2196f3;
   display: -webkit-box;
   display: -ms-flexbox;

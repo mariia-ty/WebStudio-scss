@@ -4,11 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(75, 75, 75, 0.5),
-      rgba(75, 75, 75, 0.4)
-    ),
+  background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0.5), rgba(75, 75, 75, 0.4)),
     url(/images/header-background-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -23,7 +19,13 @@
   height: 600px;
 }
 .GB__section-opener-title {
-  @include text($txt-color: $HWLetters-color, $txt-weight:900, $txt-size:44px, $txt-spacing:2.64px, $txt-transform:uppercase); 
+  @include text(
+    $txt-color: $HWLetters-color,
+    $txt-weight: 900,
+    $txt-size: 44px,
+    $txt-spacing: 2.64px,
+    $txt-transform: uppercase
+  );
   margin: 0 452px 280px 452px;
   width: 696px;
   display: flex;
@@ -46,7 +48,13 @@
   }
 }
 .GB__section--button {
-  @include text($txt-color:$HWLetters-color, $txt-weight:700, $txt-size:16px, $txt-spacing:0.96px, $txt-transform:none);
+  @include text(
+    $txt-color: $HWLetters-color,
+    $txt-weight: 700,
+    $txt-size: 16px,
+    $txt-spacing: 0.96px,
+    $txt-transform: none
+  );
   background-color: $HB-color;
   text-decoration: none;
   display: block;
@@ -139,13 +147,26 @@
   cursor: pointer;
 }
 .pop-up-title {
-  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size: 20px, $txt-spacing:normal, $txt-transform:none);
+  @include text(
+    $txt-color: $DGLetters-color,
+    $txt-weight: 700,
+    $txt-size: 20px,
+    $txt-spacing: normal,
+    $txt-transform: none
+  );
 }
 .pop-up-form {
   margin-left: 40px;
 }
 .form-sub-ttl {
-  @include text ($txt-color:$LGLetters-color, $txt-weight:400, $txt-size:12px, $txt-spacing: normal, $txt-transform:none);
+  @include text(
+    $txt-color: $LGLetters-color,
+    $txt-weight: 400,
+    $txt-size: 12px,
+    $txt-spacing: normal,
+    $txt-transform: none
+  );
+  text-align: left;
 
   padding: 0;
   margin-top: 10px;
@@ -167,7 +188,7 @@
     border-color: $HB-color;
   }
   &:hover .person {
-    fill: $HB-color
+    fill: $HB-color;
   }
   &:hover .phone {
     fill: $HB-color;
@@ -187,7 +208,6 @@
 
   margin-left: 12px;
   padding: 0;
-  
 }
 .form-inp {
   width: 400px;
@@ -216,8 +236,15 @@
   height: 96px;
   resize: none;
 
-  @include text ($txt-color:$opgrey, $txt-weight:400, $txt-size:12px, $txt-spacing: normal, $txt-transform:none);
-  
+  @include text(
+    $txt-color: $opgrey,
+    $txt-weight: 400,
+    $txt-size: 12px,
+    $txt-spacing: normal,
+    $txt-transform: none
+  );
+  text-align: left;
+
   border: none;
   outline: none;
   &::placeholder {
@@ -245,7 +272,13 @@
   padding: 0;
 }
 .txt {
-  @include text ($txt-color:$LGLetters-color, $txt-weight:400, $txt-size:14px, $txt-spacing: 0.03, $txt-transform:none);
+  @include text(
+    $txt-color: $LGLetters-color,
+    $txt-weight: 400,
+    $txt-size: 14px,
+    $txt-spacing: 0.03,
+    $txt-transform: none
+  );
 
   margin: 0;
   padding: 0;
@@ -263,7 +296,13 @@
   width: 200px;
   height: 50px;
 
-  @include text ($txt-color:$HWLetters-color, $txt-weight:700, $txt-size:16px, $txt-spacing: 0.96px, $txt-transform:none);
+  @include text(
+    $txt-color: $HWLetters-color,
+    $txt-weight: 700,
+    $txt-size: 16px,
+    $txt-spacing: 0.96px,
+    $txt-transform: none
+  );
 
   background-color: $HB-color;
 
@@ -287,59 +326,40 @@
 .char__section--list {
   max-width: 270px;
   &:nth-child(1)::before {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 70px;
+    @extend %char-images;
     background-image: url(/images/antenna.svg);
-    background-size: cover;
-    margin-bottom: 10px;
-    background-position: center;
-    margin-bottom: 10px;
-    margin-left: 80px;
   }
   &:nth-child(2)::before {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 70px;
+    @extend %char-images;
     background-image: url(/images/clock.svg);
-    background-size: cover;
-    margin-bottom: 10px;
-    background-position: center;
-    margin-bottom: 10px;
-    margin-left: 80px;
   }
   &:nth-child(3)::before {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 70px;
+    @extend %char-images;
     background-image: url(/images/diagram.svg);
-    background-size: cover;
-    margin-bottom: 10px;
-    background-position: center;
-    margin-bottom: 10px;
-    margin-left: 80px;
   }
   &:nth-child(4)::before {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 70px;
+    @extend %char-images;
     background-image: url(/images/astronaut.svg);
-    background-size: cover;
-    margin-bottom: 10px;
-    background-position: center;
-    margin-bottom: 10px;
-    margin-left: 80px;
   }
 }
 .char__section--title {
-  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:14px, $txt-spacing: 0.42px, $txt-transform: uppercase);
+  @include text(
+    $txt-color: $DGLetters-color,
+    $txt-weight: 700,
+    $txt-size: 14px,
+    $txt-spacing: 0.42px,
+    $txt-transform: uppercase
+  );
 }
 .char__section--description {
-  @include text ($txt-color:$LGLetters-color, $txt-weight:400, $txt-size:14px, $txt-spacing:0.42px, $txt-transform:none);
+  @include text(
+    $txt-color: $LGLetters-color,
+    $txt-weight: 400,
+    $txt-size: 14px,
+    $txt-spacing: 0.42px,
+    $txt-transform: none
+  );
+  text-align: left;
 }
 .ex__section {
   margin: 0 auto;
@@ -347,7 +367,13 @@
   max-width: 1170px;
 }
 .title2 {
-  @include text ($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:36px, $txt-spacing: 1.08px, $txt-transform:none);
+  @include text(
+    $txt-color: $DGLetters-color,
+    $txt-weight: 700,
+    $txt-size: 36px,
+    $txt-spacing: 1.08px,
+    $txt-transform: none
+  );
 }
 .img-list {
   list-style: none;
@@ -390,7 +416,13 @@
   z-index: 2;
 }
 .desc {
-  @include text ($txt-color:$WLetters-color, $txt-weight:700, $txt-size:14px, $txt-spacing: normal, $txt-transform:uppercase);
+  @include text(
+    $txt-color: $WLetters-color,
+    $txt-weight: 700,
+    $txt-size: 14px,
+    $txt-spacing: normal,
+    $txt-transform: uppercase
+  );
 }
 .example-img2 {
   width: 370px;
@@ -410,7 +442,13 @@
   padding-bottom: 100px;
 }
 .title3 {
-  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:36px, $txt-spacing:1.08px, $txt-transform:none);
+  @include text(
+    $txt-color: $DGLetters-color,
+    $txt-weight: 700,
+    $txt-size: 36px,
+    $txt-spacing: 1.08px,
+    $txt-transform: none
+  );
 }
 .team__section--list {
   list-style: none;
@@ -423,14 +461,26 @@
   max-width: 270px;
   margin: 10px 0;
   text-align: center;
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .member-name {
-  @include text ($txt-color:$DGLetters-color, $txt-weight:500, $txt-size:16px, $txt-spacing: 0.48px, $txt-transform:none);
+  @include text(
+    $txt-color: $DGLetters-color,
+    $txt-weight: 500,
+    $txt-size: 16px,
+    $txt-spacing: 0.48px,
+    $txt-transform: none
+  );
 }
 .member-position {
-  @include text ($txt-color:$LGLetters-color, $txt-weight:400, $txt-size:16px, $txt-spacing: 0.48px, $txt-transform:none);
+  @include text(
+    $txt-color: $LGLetters-color,
+    $txt-weight: 400,
+    $txt-size: 16px,
+    $txt-spacing: 0.48px,
+    $txt-transform: none
+  );
 }
 .team-socials {
   display: flex;
@@ -454,23 +504,19 @@
     transform: scale(1.05);
   }
   &:hover .t-instagram {
-    fill: $HWLetters-color;
-    transform: scale(1.05);
+    @include hover-change($fill-color:$HWLetters-color, $new-scale:scale(1.05));
   }
 
   &:hover .t-twitter {
-    fill: $HWLetters-color;
-    transform: scale(1.05);
+    @include hover-change($fill-color:$HWLetters-color, $new-scale:scale(1.05));
   }
 
   &:hover .t-facebook {
-    fill: $HWLetters-color;
-    transform: scale(1.05);
+    @include hover-change($fill-color:$HWLetters-color, $new-scale:scale(1.05));
   }
 
   &:hover .t-linkedin {
-    fill: $HWLetters-color;
-    transform: scale(1.05);
+    @include hover-change($fill-color:$HWLetters-color, $new-scale:scale(1.05));
   }
 }
 .t-instagram,
@@ -486,7 +532,13 @@
   margin: 0 auto;
 }
 .title4 {
-  @include text($txt-color:$DGLetters-color, $txt-weight:700, $txt-size:36px, $txt-spacing: 1.08px, $txt-transform:none);
+  @include text(
+    $txt-color: $DGLetters-color,
+    $txt-weight: 700,
+    $txt-size: 36px,
+    $txt-spacing: 1.08px,
+    $txt-transform: none
+  );
 }
 .clients__section--list {
   display: flex;
@@ -505,33 +557,27 @@
   }
 
   &:hover .yaco {
-    fill: $HB-color;
-    transform: scale(1.1);
+    @include hover-change($fill-color:$HB-color, $new-scale:scale(1.1));
   }
 
   &:hover .taglinecomp {
-    fill: $HB-color;
-    transform: scale(1.1);
+    @include hover-change($fill-color:$HB-color, $new-scale:scale(1.1));
   }
 
   &:hover .orgcomp {
-    fill: $HB-color;
-    transform: scale(1.1);
+    @include hover-change($fill-color:$HB-color, $new-scale:scale(1.1));
   }
 
   &:hover .foster {
-    fill: $HB-color;
-    transform: scale(1.1);
+    @include hover-change($fill-color:$HB-color, $new-scale:scale(1.1));
   }
 
   &:hover .brand {
-    fill: $HB-color;
-    transform: scale(1.1);
+    @include hover-change($fill-color:$HB-color, $new-scale:scale(1.1));
   }
 
   &:hover .tagline {
-    fill: $HB-color;
-    transform: scale(1.1);
+    @include hover-change($fill-color:$HB-color, $new-scale:scale(1.1));
   }
 }
 .yaco,

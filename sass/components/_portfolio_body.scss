@@ -115,7 +115,7 @@
     height: 294px;
 
     @include text ($txt-color:$WLetters-color, $txt-weight:400, $txt-size:18px, $txt-spacing: 3%, $txt-transform:none);
-  
+    text-align: left;
     background-color: $HB-color;
   
     display: flex;
