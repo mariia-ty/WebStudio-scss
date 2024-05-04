@@ -1,1 +1,1 @@
-{"version":3,"sources":["../sass/utils/iphone.scss","iphone.css"],"names":[],"mappings":"AAAA;EACI;IACI,eAAA;ECCN;AACF","file":"iphone.css"}
+{"version":3,"sources":["../sass/components/iphone.scss","iphone.css"],"names":[],"mappings":"AAAA;EACI;IACI,eAAA;ECCN;AACF","file":"iphone.css"}

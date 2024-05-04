@@ -1,1 +1,1 @@
-{"version":3,"sources":["../sass/utils/ipad.scss"],"names":[],"mappings":"AAAA,qCACI,WACI,cAAA,CAEJ,QACI,WAAA,CACA,WAAA,CAEJ,aACI,cAAA,CAEJ,UACI,UAAA,CACA,WAAA,CAEJ,qBACI,QAAA,CAAA","file":"ipad.min.css"}
+{"version":3,"sources":["../sass/components/ipad.scss"],"names":[],"mappings":"AAAA,qCACI,WACI,cAAA,CAEJ,QACI,WAAA,CACA,WAAA,CAEJ,aACI,cAAA,CAEJ,qBACI,QAAA,CAAA","file":"ipad.min.css"}
