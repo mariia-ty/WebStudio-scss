@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/components/computer.scss","computer.css"],"names":[],"mappings":"AAAA;EACI;IACI,iBAAA;ECCN;EDCE;IACI,aAAA;IACA,YAAA;ECCN;EDCE;IACI,eAAA;IACA,qBAAA;IACA,gBAAA;ECCN;EDCE;IACI,SAAA;ECCN;EDCE;IACI,eAAA;ECCN;EDCE;IACI,qBAAA;ECCN;EDEM;IACI,WAAA;ECAV;EDGE;IACI,kBAAA;IACA,SAAA;ECDN;AACF","file":"computer.css"}
