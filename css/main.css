@@ -1176,6 +1176,17 @@
   gap: 70px;
 }
 
+.top-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 70px;
+}
+
 .bot-logo {
   margin-top: 50px;
   margin-bottom: 20px;
