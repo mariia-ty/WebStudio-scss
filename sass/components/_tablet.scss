@@ -17,6 +17,15 @@
     .header__page {
       font-size: 15px;
     }
+    .menu-container {
+      display: none;
+    }
+    #mobile-menu {
+      display: none;
+    }
+    .menu-toggle {
+      display: none;
+    }
     .header__cont--list {
       list-style: none;
       display: flex;
@@ -208,7 +217,9 @@
     gap: 165px;
     justify-content: center;
   }
-  .left-ft, .middle-ft, .right-ft {
+  .left-ft,
+  .middle-ft,
+  .right-ft {
     text-align: center;
   }
   .email-btn {

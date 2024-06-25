@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
   .container {
     width: 480px;
+    margin: 0 auto;
   }
   .header {
     .header__logo {
@@ -12,7 +13,10 @@
     .top_bar {
       display: none;
     }
-  } //dont forget the rest of the code for header
+  } 
+  .page .header .menu-toggle {
+    display: flex;
+  }
 
   .back-img {
     width: 480px;
