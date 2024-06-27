@@ -14,10 +14,19 @@
       display: none;
     }
   } 
-  .page .header .menu-toggle {
+  .menu-toggle {
     display: flex;
+    margin: 10px 10px 10px 276px;
+    outline: none;
+    border: none;
   }
-
+  .phone-menu {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+  }
   .back-img {
     width: 480px;
     height: 400px;
