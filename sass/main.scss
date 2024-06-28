@@ -1,6 +1,6 @@
 @import "./utils/variables";
-@import "./utils/placeholders.scss";
-@import "./utils/mixins.scss";
+@import "./utils/placeholders";
+@import "./utils/mixins";
 @import "./components/container";
 @import "./components/header";
 @import "./components/main_body";
@@ -8,4 +8,4 @@
 @import "./components/footer";
 @import "./components/iphone";
 @import "./components/tablet";
-@import "./components/computer.scss";
+@import "./components/computer";
