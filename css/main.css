@@ -155,8 +155,8 @@
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 75, 75, 0.5)), to(rgba(75, 75, 75, 0.4))), url(/images/header-background-img.jpg);
-  background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0.5), rgba(75, 75, 75, 0.4)), url(/images/header-background-img.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 75, 75, 0.5)), to(rgba(75, 75, 75, 0.4))), url(/images/header-background-img@1x.jpg);
+  background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0.5), rgba(75, 75, 75, 0.4)), url(/images/header-background-img@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -663,7 +663,7 @@
 .example-img1 {
   width: 370px;
   height: 294px;
-  background-image: url(/images/typing.jpg);
+  background-image: url(/images/typing@1x.jpg);
   z-index: 1;
   display: block;
 }
@@ -703,14 +703,14 @@
 .example-img2 {
   width: 370px;
   height: 294px;
-  background-image: url(/images/laptop-img.jpg);
+  background-image: url(/images/laptop-img@1x.jpg);
   z-index: 1;
 }
 
 .example-img3 {
   width: 370px;
   height: 294px;
-  background-image: url(/images/hexa-colors.jpg);
+  background-image: url(/images/hexa-colors@1x.jpg);
   z-index: 1;
 }
 
@@ -1810,8 +1810,8 @@
   .back-img {
     width: 768px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 75, 75, 0.5)), to(rgba(75, 75, 75, 0.4))), url(/images/header-img-tablet.jpg);
-    background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0.5), rgba(75, 75, 75, 0.4)), url(/images/header-img-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 75, 75, 0.5)), to(rgba(75, 75, 75, 0.4))), url(/images/header-img-tablet@1x.jpg);
+    background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0.5), rgba(75, 75, 75, 0.4)), url(/images/header-img-tablet@1x.jpg);
   }
   .GB_section {
     width: 768px;
